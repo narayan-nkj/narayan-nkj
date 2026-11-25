@@ -1,0 +1,81 @@
+{
+  "username": "narayan-nkj",
+  "timezone": "Asia/Kolkata",
+  "min_stars_to_show": 5,
+  "huggingface_dataset": "narayan-nkj/sagar-sss",
+  "enable_profile_status": false,
+  "allowed_url_hosts": [
+    "github.com",
+    "huggingface.co",
+    "taskflow-five-nu-26.vercel.app",
+    "claimcheck-ruddy-nu.vercel.app",
+    "ncporpolartwin.vercel.app",
+    "narayan-nkj.vercel.app"
+  ],
+  "featured_projects": [
+    {
+      "repo": "narayan-nkj/SagaRSonaR",
+      "custom_description": "AI-assisted seabed survey analysis featuring a 14-stage acoustic anomaly processing pipeline for side-scan sonar imagery under low signal-to-noise ratios. Built for Smart India Hackathon 2026 (Problem Statement 26057).",
+      "extra_links": [
+        {
+          "label": "Sonar Dataset on Hugging Face",
+          "url": "https://huggingface.co/datasets/narayan-nkj/sagar-sss"
+        }
+      ]
+    },
+    {
+      "repo": "narayan-nkj/claimcheck-retail-media",
+      "custom_description": "Deterministic pre-publication verification gate that checks factual claims in retail advertising copy against merchant data. Enforces a fail-closed verdict taxonomy (`ALLOW`, `REVIEW`, `BLOCK`) with immutable audit logging and sub-millisecond local policy execution.",
+      "extra_links": [
+        {
+          "label": "Live Application",
+          "url": "https://claimcheck-ruddy-nu.vercel.app"
+        },
+        {
+          "label": "Local Benchmarks",
+          "url": "https://github.com/narayan-nkj/claimcheck-retail-media#performance--benchmarks"
+        }
+      ]
+    },
+    {
+      "repo": "narayan-nkj/SIH26060",
+      "custom_description": "Digital-twin operations platform for remote telemetry monitoring, predictive alerting, and supply synchronization across India's Antarctic research stations (Maitri and Bharati) for SIH 2026.",
+      "extra_links": [
+        {
+          "label": "Live Platform",
+          "url": "https://ncporpolartwin.vercel.app"
+        }
+      ]
+    },
+    {
+      "repo": "narayan-nkj/phantomdeps",
+      "custom_description": "Verification-only pre-install gate for IBM Bob that statically inspects exported AST declarations from npm tarballs before installation to neutralize AI-agent package hallucinations.",
+      "extra_links": [
+        {
+          "label": "Product Contract",
+          "url": "https://github.com/narayan-nkj/phantomdeps/blob/main/docs/product-contract.md"
+        }
+      ]
+    },
+    {
+      "repo": "narayan-nkj/Taskflow",
+      "custom_description": "Student productivity engine and academic deadline workspace with a 7-day strip scheduler and isolated sample data feeds.",
+      "extra_links": [
+        {
+          "label": "Live Application",
+          "url": "https://taskflow-five-nu-26.vercel.app"
+        }
+      ]
+    },
+    {
+      "repo": "narayan-nkj/Narayan.nkj",
+      "custom_description": "Personal engineering portfolio and project showcase with minimalist typography and theme switching.",
+      "extra_links": [
+        {
+          "label": "Live Site",
+          "url": "https://narayan-nkj.vercel.app"
+        }
+      ]
+    }
+  ]
+}

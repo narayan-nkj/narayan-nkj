@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/banner-dark.svg">
-  <img src="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/banner-light.svg" alt="Narayan Kumar Jha - Radar sweep resolving into signal" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/banner-dark.svg?v=9d705678">
+  <img src="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/banner-light.svg?v=c66d12d6" alt="Narayan Kumar Jha - Radar sweep resolving into signal" width="100%">
 </picture>
 
 ## Focus
@@ -18,41 +18,43 @@ Student engineer building acoustic signal intelligence, deterministic verificati
 
 ## Engineering
 
-### [S.A.G.A.R. (Ocean-X)](https://github.com/narayan-nkj/SagaRSonaR)
+<!--auto:projects:start-->
+### [SagaRSonaR](https://github.com/narayan-nkj/SagaRSonaR)
 AI-assisted seabed survey analysis featuring a 14-stage acoustic anomaly processing pipeline for side-scan sonar imagery under low signal-to-noise ratios. Built for Smart India Hackathon 2026 (Problem Statement 26057).
-- **Stack:** Python &bull; FastAPI &bull; PyTorch &bull; React 19 &bull; MapLibre GL
+- *TypeScript &bull; Updated 35 days ago (21 Oct 2026, 01:34 IST)*
 - **Links:** [Repository](https://github.com/narayan-nkj/SagaRSonaR) &bull; [Sonar Dataset on Hugging Face](https://huggingface.co/datasets/narayan-nkj/sagar-sss)
 
-### [ClaimCheck](https://github.com/narayan-nkj/claimcheck-retail-media)
+### [claimcheck-retail-media](https://github.com/narayan-nkj/claimcheck-retail-media)
 Deterministic pre-publication verification gate that checks factual claims in retail advertising copy against merchant data. Enforces a fail-closed verdict taxonomy (`ALLOW`, `REVIEW`, `BLOCK`) with immutable audit logging and sub-millisecond local policy execution.
-- **Stack:** Node.js &bull; TypeScript &bull; Express
+- *JavaScript &bull; Updated 31 days ago (25 Oct 2026, 09:29 IST)*
 - **Links:** [Repository](https://github.com/narayan-nkj/claimcheck-retail-media) &bull; [Live Application](https://claimcheck-ruddy-nu.vercel.app) &bull; [Local Benchmarks](https://github.com/narayan-nkj/claimcheck-retail-media#performance--benchmarks)
 
 <details>
 <summary><b>More Projects (4)</b></summary>
 <br>
 
-#### [NCPOR Polar Twin](https://github.com/narayan-nkj/SIH26060)
+#### [SIH26060](https://github.com/narayan-nkj/SIH26060)
 Digital-twin operations platform for remote telemetry monitoring, predictive alerting, and supply synchronization across India's Antarctic research stations (Maitri and Bharati) for SIH 2026.
-- **Stack:** React &bull; Vite &bull; Node.js &bull; Express &bull; MongoDB
+- *Updated 58 days ago (28 Sep 2026, 17:14 IST)*
 - **Links:** [Repository](https://github.com/narayan-nkj/SIH26060) &bull; [Live Platform](https://ncporpolartwin.vercel.app)
 
-#### [PhantomDeps](https://github.com/narayan-nkj/phantomdeps)
+#### [phantomdeps](https://github.com/narayan-nkj/phantomdeps)
 Verification-only pre-install gate for IBM Bob that statically inspects exported AST declarations from npm tarballs before installation to neutralize AI-agent package hallucinations.
-- **Stack:** TypeScript &bull; Node.js 20+ &bull; SHA-256 Chaining
+- *Updated 59 days ago (27 Sep 2026, 20:06 IST)*
 - **Links:** [Repository](https://github.com/narayan-nkj/phantomdeps) &bull; [Product Contract](https://github.com/narayan-nkj/phantomdeps/blob/main/docs/product-contract.md)
 
-#### [TaskFlow](https://github.com/narayan-nkj/Taskflow)
+#### [Taskflow](https://github.com/narayan-nkj/Taskflow)
 Student productivity engine and academic deadline workspace with a 7-day strip scheduler and isolated sample data feeds.
-- **Stack:** React 18 &bull; TypeScript &bull; Vite &bull; Tailwind CSS
+- *JavaScript &bull; Updated 24 days ago (31 Oct 2026, 22:34 IST)*
 - **Links:** [Repository](https://github.com/narayan-nkj/Taskflow) &bull; [Live Application](https://taskflow-five-nu-26.vercel.app)
 
-#### [Portfolio Suite](https://github.com/narayan-nkj/Narayan.nkj)
+#### [Narayan.nkj](https://github.com/narayan-nkj/Narayan.nkj)
 Personal engineering portfolio and project showcase with minimalist typography and theme switching.
-- **Stack:** HTML5 &bull; CSS3 &bull; TypeScript &bull; JavaScript
+- *HTML &bull; Updated 40 days ago (16 Oct 2026, 01:55 IST)*
 - **Links:** [Repository](https://github.com/narayan-nkj/Narayan.nkj) &bull; [Live Site](https://narayan-nkj.vercel.app)
 
 </details>
+<!--auto:projects:end-->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/divider-mid-dark.svg">
@@ -69,16 +71,34 @@ Personal engineering portfolio and project showcase with minimalist typography a
 - *Also used:* Shell, Makefile, HTML5 Canvas
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/languages-dark.svg">
-  <img src="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/languages-light.svg" alt="Proportional language distribution bar" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/languages-dark.svg?v=8d3d36f4">
+  <img src="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/languages-light.svg?v=6467851d" alt="Proportional language distribution bar" width="100%">
+</picture>
+
+<br>
+
+## Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/radar-dark.svg?v=50dc9a87">
+  <img src="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/radar-light.svg?v=6ae3dab0" alt="30-day activity radar with time-of-day IST bearing" width="100%">
 </picture>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/contribution-waveform-dark.svg">
-  <img src="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/contribution-waveform-light.svg" alt="52-week smoothed contribution waveform" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/contribution-waveform-dark.svg?v=6778bfb1">
+  <img src="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/contribution-waveform-light.svg?v=b05e7f75" alt="52-week smoothed contribution waveform" width="100%">
 </picture>
+
+### Recently Shipped
+
+<!--auto:recent:start-->
+- **[narayan-nkj/flow-shield-core](https://github.com/narayan-nkj/flow-shield-core)** &mdash; Pushed 1 commit &bull; *3 days ago (22 Nov 2026, 20:12 IST)*
+- **[narayan-nkj/Taskflow](https://github.com/narayan-nkj/Taskflow)** &mdash; Pushed 1 commit &bull; *24 days ago (31 Oct 2026, 22:34 IST)*
+- **[narayan-nkj/Taskflow](https://github.com/narayan-nkj/Taskflow)** &mdash; Pushed 1 commit &bull; *26 days ago (30 Oct 2026, 03:35 IST)*
+- **[narayan-nkj/Taskflow](https://github.com/narayan-nkj/Taskflow)** &mdash; Pushed 1 commit &bull; *29 days ago (27 Oct 2026, 17:36 IST)*
+<!--auto:recent:end-->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/divider-sine-dark.svg">
@@ -93,3 +113,13 @@ Personal engineering portfolio and project showcase with minimalist typography a
 - **Email:** [narayan.nkj@gmail.com](mailto:narayan.nkj@gmail.com)
 - **LinkedIn:** [narayan-nkj](https://www.linkedin.com/in/narayan-nkj)
 - **Instagram:** [n.jha.__](https://www.instagram.com/n.jha.__)
+
+<br>
+
+<div align="center">
+
+<!--auto:last-scan:start-->
+*System telemetry last synced: 25 Nov 2026, 20:41 IST*
+<!--auto:last-scan:end-->
+
+</div>

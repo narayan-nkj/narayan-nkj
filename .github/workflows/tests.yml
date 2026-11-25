@@ -1,0 +1,39 @@
+name: Automated Tests
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'profile.config.json'
+      - '.github/workflows/tests.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  test-suite:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        # actions/checkout@v4.2.2
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python 3.12
+        # actions/setup-python@v5.3.0
+        uses: actions/setup-python@0a5c61591373683505ea898e09a6ea1c81421b16
+        with:
+          python-version: '3.12'
+
+      - name: Run unit test suite
+        run: |
+          python3 -m unittest discover tests
+
+      - name: Run offline asset compilation test
+        run: |
+          python3 scripts/build_assets.py --offline --dry-run

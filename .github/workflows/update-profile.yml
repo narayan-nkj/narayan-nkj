@@ -2,14 +2,20 @@ name: Update Profile Assets
 
 on:
   schedule:
-    # Run daily at 00:00 UTC
-    - cron: '0 0 * * *'
+    # Run every 6 hours at an off-peak odd minute (17 */6 * * *)
+    - cron: '17 */6 * * *'
   push:
     branches:
       - main
     paths:
+      - 'profile.config.json'
       - 'scripts/**'
+      - '.github/workflows/update-profile.yml'
   workflow_dispatch:
+
+concurrency:
+  group: profile-update
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -17,35 +23,64 @@ permissions:
 jobs:
   build-and-update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        # actions/checkout@v4.2.2
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
-          fetch-depth: 1
+          fetch-depth: 10
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Python 3.12
+        # actions/setup-python@v5.3.0
+        uses: actions/setup-python@0a5c61591373683505ea898e09a6ea1c81421b16
         with:
           python-version: '3.12'
 
-      - name: Compile dynamic SVG assets
+      - name: Compile dynamic assets and update markers
         env:
-          # Uses the default repository token.
-          # NOTE: To count contributions from private repositories, configure a repository
-          # secret named GH_PAT (with 'repo' and 'read:user' scopes) and uncomment the line below:
-          # GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python3 scripts/build_assets.py
 
-      - name: Commit and push changes if modified
+      - name: Upload generated assets on failure
+        if: failure()
+        uses: actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1 # v4.6.1
+        with:
+          name: generated-assets-failure
+          path: |
+            assets/
+            README.md
+
+      - name: Commit and push changes if modified or heartbeat due
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/
-          if git diff --staged --quiet; then
-            echo "No visual asset updates detected. Exiting cleanly."
-          else
-            git commit -m "chore(assets): refresh contribution waveform and language distribution [skip ci]"
-            git push
+
+          # Check last commit age in seconds (Heartbeat 7 days = 604800 sec)
+          LAST_COMMIT_TS=$(git log -1 --format=%ct)
+          CURRENT_TS=$(date +%s)
+          AGE=$((CURRENT_TS - LAST_COMMIT_TS))
+          HEARTBEAT_DUE=0
+          if [ $AGE -gt 604800 ]; then
+            HEARTBEAT_DUE=1
+            echo "Heartbeat due: last commit is older than 7 days ($AGE seconds)."
           fi
+
+          git add assets/ README.md
+          if git diff --staged --quiet && [ $HEARTBEAT_DUE -eq 0 ]; then
+            echo "No generated asset changes and heartbeat not due. Exiting cleanly."
+            exit 0
+          fi
+
+          git commit -m "chore(profile): refresh [skip ci]" || exit 0
+
+          # Retry push up to 3 times with git pull --rebase
+          MAX_RETRIES=3
+          for i in $(seq 1 $MAX_RETRIES); do
+            echo "Push attempt $i of $MAX_RETRIES..."
+            git pull --rebase origin main && git push origin main && exit 0
+            sleep 2
+          done
+          echo "Failed to push after $MAX_RETRIES attempts."
+          exit 1
