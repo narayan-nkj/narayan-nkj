@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="100%" height="100%">
+  <defs>
+    <style>
+      @media (prefers-reduced-motion: reduce) {
+        .ping-ring, .mast-light, .sweep-beam { animation: none !important; }
+      }
+      .ping-ring {
+        transform-origin: 920px 220px;
+        animation: sonarPing 3s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+      }
+      .ping-ring-2 {
+        transform-origin: 920px 220px;
+        animation: sonarPing 3s cubic-bezier(0, 0.2, 0.8, 1) infinite 1.5s;
+      }
+      .mast-light {
+        animation: blinkLight 1.8s steps(2, start) infinite;
+      }
+      .sweep-beam {
+        transform-origin: 920px 150px;
+        animation: coneSweep 4s ease-in-out infinite alternate;
+      }
+      @keyframes sonarPing {
+        0% { r: 10px; opacity: 0.9; }
+        100% { r: 85px; opacity: 0; }
+      }
+      @keyframes blinkLight {
+        to { visibility: hidden; }
+      }
+      @keyframes coneSweep {
+        from { transform: rotate(-15deg); }
+        to { transform: rotate(15deg); }
+      }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Sky & Water Canvas -->
+  <rect width="1280" height="150" fill="#080b12"/>
+  <rect y="150" width="1280" height="170" fill="#0d131f"/>
+
+  <!-- Pixel Stars -->
+  <rect x="120" y="40" width="3" height="3" fill="#ffffff" opacity="0.8"/>
+<rect x="280" y="25" width="3" height="3" fill="#ffffff" opacity="0.8"/>
+<rect x="460" y="50" width="3" height="3" fill="#ffffff" opacity="0.8"/>
+<rect x="620" y="30" width="3" height="3" fill="#ffffff" opacity="0.8"/>
+<rect x="810" y="45" width="3" height="3" fill="#ffffff" opacity="0.8"/>
+<rect x="990" y="20" width="3" height="3" fill="#ffffff" opacity="0.8"/>
+<rect x="1150" y="60" width="3" height="3" fill="#ffffff" opacity="0.8"/>
+<rect x="350" y="75" width="3" height="3" fill="#ffffff" opacity="0.8"/>
+<rect x="740" y="85" width="3" height="3" fill="#ffffff" opacity="0.8"/>
+
+
+  <!-- Moon / Celestial Orb -->
+  <rect x="1180" y="30" width="24" height="24" fill="#67e8f9" opacity="0.85"/>
+  <rect x="1184" y="34" width="16" height="16" fill="#080b12"/>
+
+  <!-- Waterline -->
+  <line x1="0" y1="150" x2="1280" y2="150" stroke="#67e8f9" stroke-width="2" stroke-dasharray="8,4" opacity="0.6"/>
+
+  <!-- Left: Profile Identity -->
+  <text class="sans" x="48" y="58" font-size="28" font-weight="800" fill="#f1f5f9" letter-spacing="-0.5">Narayan Kumar Jha</text>
+  <text class="mono" x="48" y="86" font-size="12" fill="#67e8f9" letter-spacing="1">STUDENT ENGINEER // ACOUSTIC SIGNAL INTEL &amp; VERIFICATION</text>
+  <text class="mono" x="48" y="106" font-size="11" fill="#94a3b8">IIT Madras (BS Data Science) &#8226; B.P. Poddar Institute (CSE)</text>
+
+  <!-- Left Under-water: Code Snippet -->
+  <g transform="translate(48, 175)">
+    <rect width="360" height="96" fill="#080b12" rx="4" stroke="#a78bfa" stroke-width="1" opacity="0.9"/>
+    <text class="mono" x="16" y="24" font-size="11" fill="#a78bfa">def resolve_seabed(signal, snr):</text>
+    <text class="mono" x="28" y="44" font-size="11" fill="#f1f5f9">clean = acoustic_filter(signal, stages=14)</text>
+    <text class="mono" x="28" y="64" font-size="11" fill="#67e8f9">return verify_anomaly(clean, fail_closed=True)</text>
+  </g>
+
+  <!-- Right: Research Vessel (Pixel Art) -->
+  <g transform="translate(860, 115)">
+    <!-- Hull -->
+    <polygon points="0,35 120,35 110,15 20,15" fill="#1e293b"/>
+    <!-- Cabin -->
+    <rect x="35" y="0" width="45" height="15" fill="#f1f5f9"/>
+    <!-- Windows -->
+    <rect x="42" y="4" width="8" height="6" fill="#67e8f9"/>
+    <rect x="56" y="4" width="8" height="6" fill="#67e8f9"/>
+    <!-- Mast & Radar -->
+    <line x1="70" y1="0" x2="70" y2="-18" stroke="#f1f5f9" stroke-width="2"/>
+    <circle class="mast-light" cx="70" cy="-20" r="3" fill="#fbbf24"/>
+  </g>
+
+  <!-- Underwater Sonar Array & Cross-Section -->
+  <g class="sweep-beam">
+    <polygon points="920,150 830,290 1010,290" fill="rgba(96,165,250,0.18)"/>
+  </g>
+
+  <!-- Sonar Pings -->
+  <circle class="ping-ring" cx="920" cy="220" r="10" fill="none" stroke="#67e8f9" stroke-width="1.5"/>
+  <circle class="ping-ring-2" cx="920" cy="220" r="10" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+
+  <!-- Seabed Seabed Contact (Underwater Target) -->
+  <rect x="914" y="275" width="14" height="8" fill="#fbbf24"/>
+  <line x1="921" y1="275" x2="921" y2="220" stroke="#fbbf24" stroke-width="1" stroke-dasharray="2,3"/>
+  <text class="mono" x="934" y="282" font-size="9" fill="#fbbf24">CONTACT #26057</text>
+
+  <!-- Top-Right Original NKJ Monogram Badge -->
+  <g transform="translate(1210, 24)">
+    <circle cx="16" cy="16" r="18" fill="#080b12" stroke="#67e8f9" stroke-width="2"/>
+    <text class="mono" x="16" y="21" font-size="10" font-weight="800" fill="#67e8f9" text-anchor="middle">NKJ</text>
+  </g>
+</svg>

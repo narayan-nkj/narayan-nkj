@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 190" width="100%" height="190">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    </style>
+  </defs>
+  <rect width="840" height="190" fill="#080b12" rx="8"/>
+  
+    <g transform="translate(20, 20)">
+      <rect width="90" height="72" rx="8" fill="#101522" stroke="#263044" stroke-width="1"/>
+      <rect x="8" y="8" width="12" height="12" rx="3" fill="#3572A5"/>
+      <text class="mono" x="25" y="18" font-size="10" font-weight="700" fill="#3572A5">PY</text>
+      <text class="sans" x="8" y="52" font-size="11" font-weight="600" fill="#f1f5f9">Python</text>
+    </g>
+    <g transform="translate(122, 20)">
+      <rect width="90" height="72" rx="8" fill="#101522" stroke="#263044" stroke-width="1"/>
+      <rect x="8" y="8" width="12" height="12" rx="3" fill="#3178C6"/>
+      <text class="mono" x="25" y="18" font-size="10" font-weight="700" fill="#3178C6">TS</text>
+      <text class="sans" x="8" y="52" font-size="11" font-weight="600" fill="#f1f5f9">TypeScript</text>
+    </g>
+    <g transform="translate(224, 20)">
+      <rect width="90" height="72" rx="8" fill="#101522" stroke="#263044" stroke-width="1"/>
+      <rect x="8" y="8" width="12" height="12" rx="3" fill="#F7DF1E"/>
+      <text class="mono" x="25" y="18" font-size="10" font-weight="700" fill="#F7DF1E">JS</text>
+      <text class="sans" x="8" y="52" font-size="11" font-weight="600" fill="#f1f5f9">JavaScript</text>
+    </g>
+    <g transform="translate(326, 20)">
+      <rect width="90" height="72" rx="8" fill="#101522" stroke="#263044" stroke-width="1"/>
+      <rect x="8" y="8" width="12" height="12" rx="3" fill="#00599C"/>
+      <text class="mono" x="25" y="18" font-size="10" font-weight="700" fill="#00599C">C++</text>
+      <text class="sans" x="8" y="52" font-size="11" font-weight="600" fill="#f1f5f9">C/C++</text>
+    </g>
+    <g transform="translate(428, 20)">
+      <rect width="90" height="72" rx="8" fill="#101522" stroke="#263044" stroke-width="1"/>
+      <rect x="8" y="8" width="12" height="12" rx="3" fill="#009688"/>
+      <text class="mono" x="25" y="18" font-size="10" font-weight="700" fill="#009688">API</text>
+      <text class="sans" x="8" y="52" font-size="11" font-weight="600" fill="#f1f5f9">FastAPI</text>
+    </g>
+    <g transform="translate(530, 20)">
+      <rect width="90" height="72" rx="8" fill="#101522" stroke="#263044" stroke-width="1"/>
+      <rect x="8" y="8" width="12" height="12" rx="3" fill="#339933"/>
+      <text class="mono" x="25" y="18" font-size="10" font-weight="700" fill="#339933">NODE</text>
+      <text class="sans" x="8" y="52" font-size="11" font-weight="600" fill="#f1f5f9">Node.js</text>
+    </g>
+    <g transform="translate(632, 20)">
+      <rect width="90" height="72" rx="8" fill="#101522" stroke="#263044" stroke-width="1"/>
+      <rect x="8" y="8" width="12" height="12" rx="3" fill="#61DAFB"/>
+      <text class="mono" x="25" y="18" font-size="10" font-weight="700" fill="#61DAFB">REACT</text>
+      <text class="sans" x="8" y="52" font-size="11" font-weight="600" fill="#f1f5f9">React</text>
+    </g>
+    <g transform="translate(734, 20)">
+      <rect width="90" height="72" rx="8" fill="#101522" stroke="#263044" stroke-width="1"/>
+      <rect x="8" y="8" width="12" height="12" rx="3" fill="#EE4C2C"/>
+      <text class="mono" x="25" y="18" font-size="10" font-weight="700" fill="#EE4C2C">TORCH</text>
+      <text class="sans" x="8" y="52" font-size="11" font-weight="600" fill="#f1f5f9">PyTorch</text>
+    </g>
+    <g transform="translate(20, 104)">
+      <rect width="90" height="72" rx="8" fill="#101522" stroke="#263044" stroke-width="1"/>
+      <rect x="8" y="8" width="12" height="12" rx="3" fill="#2496ED"/>
+      <text class="mono" x="25" y="18" font-size="10" font-weight="700" fill="#2496ED">DOCK</text>
+      <text class="sans" x="8" y="52" font-size="11" font-weight="600" fill="#f1f5f9">Docker</text>
+    </g>
+    <g transform="translate(122, 104)">
+      <rect width="90" height="72" rx="8" fill="#101522" stroke="#263044" stroke-width="1"/>
+      <rect x="8" y="8" width="12" height="12" rx="3" fill="#646CFF"/>
+      <text class="mono" x="25" y="18" font-size="10" font-weight="700" fill="#646CFF">VITE</text>
+      <text class="sans" x="8" y="52" font-size="11" font-weight="600" fill="#f1f5f9">Vite</text>
+    </g>
+    <g transform="translate(224, 104)">
+      <rect width="90" height="72" rx="8" fill="#101522" stroke="#263044" stroke-width="1"/>
+      <rect x="8" y="8" width="12" height="12" rx="3" fill="#06B6D4"/>
+      <text class="mono" x="25" y="18" font-size="10" font-weight="700" fill="#06B6D4">CSS</text>
+      <text class="sans" x="8" y="52" font-size="11" font-weight="600" fill="#f1f5f9">Tailwind</text>
+    </g>
+    <g transform="translate(326, 104)">
+      <rect width="90" height="72" rx="8" fill="#101522" stroke="#263044" stroke-width="1"/>
+      <rect x="8" y="8" width="12" height="12" rx="3" fill="#396B9E"/>
+      <text class="mono" x="25" y="18" font-size="10" font-weight="700" fill="#396B9E">MAP</text>
+      <text class="sans" x="8" y="52" font-size="11" font-weight="600" fill="#f1f5f9">MapLibre</text>
+    </g>
+    <g transform="translate(428, 104)">
+      <rect width="90" height="72" rx="8" fill="#101522" stroke="#263044" stroke-width="1"/>
+      <rect x="8" y="8" width="12" height="12" rx="3" fill="#DC382D"/>
+      <text class="mono" x="25" y="18" font-size="10" font-weight="700" fill="#DC382D">REDIS</text>
+      <text class="sans" x="8" y="52" font-size="11" font-weight="600" fill="#f1f5f9">Redis</text>
+    </g>
+    <g transform="translate(530, 104)">
+      <rect width="90" height="72" rx="8" fill="#101522" stroke="#263044" stroke-width="1"/>
+      <rect x="8" y="8" width="12" height="12" rx="3" fill="#003B57"/>
+      <text class="mono" x="25" y="18" font-size="10" font-weight="700" fill="#003B57">SQL</text>
+      <text class="sans" x="8" y="52" font-size="11" font-weight="600" fill="#f1f5f9">SQLite</text>
+    </g>
+    <g transform="translate(632, 104)">
+      <rect width="90" height="72" rx="8" fill="#101522" stroke="#263044" stroke-width="1"/>
+      <rect x="8" y="8" width="12" height="12" rx="3" fill="#FCC624"/>
+      <text class="mono" x="25" y="18" font-size="10" font-weight="700" fill="#FCC624">LINUX</text>
+      <text class="sans" x="8" y="52" font-size="11" font-weight="600" fill="#f1f5f9">Linux</text>
+    </g>
+    <g transform="translate(734, 104)">
+      <rect width="90" height="72" rx="8" fill="#101522" stroke="#263044" stroke-width="1"/>
+      <rect x="8" y="8" width="12" height="12" rx="3" fill="#2088FF"/>
+      <text class="mono" x="25" y="18" font-size="10" font-weight="700" fill="#2088FF">CI/CD</text>
+      <text class="sans" x="8" y="52" font-size="11" font-weight="600" fill="#f1f5f9">Actions</text>
+    </g>
+</svg>

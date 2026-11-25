@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 260" width="100%" height="260">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="410" height="260" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <text class="mono" x="24" y="32" font-size="12" font-weight="700" fill="#0284c7" letter-spacing="1">TOP CONTRIBUTED REPOSITORIES</text>
+  
+    <g transform="translate(24, 65)">
+      <text class="mono" x="0" y="0" font-size="12" font-weight="600" fill="#0f172a">SagaRSonaR</text>
+      <text class="mono" x="362" y="0" font-size="11" fill="#64748b" text-anchor="end">277 commits</text>
+      <rect x="0" y="8" width="362" height="6" rx="3" fill="#e2e8f0"/>
+      <rect x="0" y="8" width="160" height="6" rx="3" fill="#0284c7"/>
+    </g>
+    <g transform="translate(24, 109)">
+      <text class="mono" x="0" y="0" font-size="12" font-weight="600" fill="#0f172a">SAGAR-SonarVision</text>
+      <text class="mono" x="362" y="0" font-size="11" fill="#64748b" text-anchor="end">277 commits</text>
+      <rect x="0" y="8" width="362" height="6" rx="3" fill="#e2e8f0"/>
+      <rect x="0" y="8" width="160" height="6" rx="3" fill="#0284c7"/>
+    </g>
+    <g transform="translate(24, 153)">
+      <text class="mono" x="0" y="0" font-size="12" font-weight="600" fill="#0f172a">claimcheck-retail-media</text>
+      <text class="mono" x="362" y="0" font-size="11" fill="#64748b" text-anchor="end">71 commits</text>
+      <rect x="0" y="8" width="362" height="6" rx="3" fill="#e2e8f0"/>
+      <rect x="0" y="8" width="41" height="6" rx="3" fill="#0284c7"/>
+    </g>
+    <g transform="translate(24, 197)">
+      <text class="mono" x="0" y="0" font-size="12" font-weight="600" fill="#0f172a">Taskflow</text>
+      <text class="mono" x="362" y="0" font-size="11" fill="#64748b" text-anchor="end">57 commits</text>
+      <rect x="0" y="8" width="362" height="6" rx="3" fill="#e2e8f0"/>
+      <rect x="0" y="8" width="32" height="6" rx="3" fill="#0284c7"/>
+    </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" width="100%" height="100%">
+  <defs>
+    <style>
+      @media (prefers-reduced-motion: reduce) {
+        .screen-pulse, .wave-anim { animation: none !important; }
+      }
+      .screen-pulse {
+        animation: glowPulse 2.5s ease-in-out infinite alternate;
+      }
+      .wave-anim {
+        animation: shiftWave 1.5s steps(4, start) infinite;
+      }
+      @keyframes glowPulse {
+        from { opacity: 0.8; }
+        to { opacity: 1.0; }
+      }
+      @keyframes shiftWave {
+        50% { transform: translateY(-2px); }
+      }
+    </style>
+  </defs>
+
+  <rect width="280" height="280" fill="#080b12" rx="8"/>
+
+  <!-- Ambient Wall Glow -->
+  <circle cx="140" cy="120" r="90" fill="#67e8f9" opacity="0.08"/>
+
+  <!-- Desk Surface -->
+  <rect x="20" y="190" width="240" height="12" fill="#1e293b"/>
+  <rect x="35" y="202" width="10" height="60" fill="#1e293b"/>
+  <rect x="235" y="202" width="10" height="60" fill="#1e293b"/>
+
+  <!-- Monitor Stand & Frame -->
+  <rect x="130" y="165" width="20" height="25" fill="#0f172a"/>
+  <rect x="115" y="185" width="50" height="5" fill="#0f172a"/>
+  <rect x="65" y="65" width="150" height="100" fill="#0f172a" rx="3"/>
+  <rect class="screen-pulse" x="72" y="72" width="136" height="86" fill="#0284c7"/>
+
+  <!-- Sonar Waveform on Screen -->
+  <g class="wave-anim">
+    <path d="M 80 115 Q 95 90, 110 115 T 140 115 T 170 115 T 195 115" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="140" cy="115" r="3" fill="#ffffff"/>
+  </g>
+
+  <!-- Developer Silhouette / Pixel Avatar at Desk -->
+  <rect x="125" y="145" width="30" height="45" fill="#a78bfa"/>
+  <rect x="130" y="125" width="20" height="20" fill="#fbbf24"/>
+  <!-- Headphones -->
+  <rect x="126" y="127" width="5" height="12" fill="#0f172a"/>
+  <rect x="149" y="127" width="5" height="12" fill="#0f172a"/>
+  <rect x="130" y="123" width="20" height="4" fill="#0f172a"/>
+
+  <!-- Keyboard & Mouse -->
+  <rect x="100" y="192" width="55" height="4" fill="#0f172a"/>
+  <rect x="165" y="192" width="8" height="4" fill="#0f172a"/>
+</svg>

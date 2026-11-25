@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 260" width="100%" height="260">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="410" height="260" rx="8" fill="#141026" stroke="#4c1d95" stroke-width="1.5"/>
+  <text class="mono" x="24" y="32" font-size="11" font-weight="700" fill="#a78bfa" letter-spacing="1">QUOTE OF THE DAY</text>
+
+  <text class="sans" x="24" y="85" font-size="14" font-weight="500" fill="#2dd4bf">
+    <tspan x="24" dy="0">"There are only two hard things in Computer"</tspan>
+<tspan x="24" dy="22">Science: cache invalidation and naming</tspan>
+<tspan x="24" dy="22">things.</tspan>
+
+  </text>
+
+  <text class="mono" x="24" y="210" font-size="12" font-weight="700" fill="#a78bfa">&#8212; Phil Karlton</text>
+  <text class="mono" x="24" y="235" font-size="9" fill="#94a3b8">Synchronized daily via quotes.json</text>
+</svg>

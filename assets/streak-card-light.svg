@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 240" width="100%" height="240">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="410" height="240" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+
+  <text class="mono" x="24" y="32" font-size="12" font-weight="700" fill="#fbbf24" letter-spacing="1">CONTRIBUTION STREAK</text>
+
+  <!-- Left: Flame Ring for Current Streak -->
+  <g transform="translate(85, 125)">
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#e2e8f0" stroke-width="7"/>
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#fbbf24" stroke-width="7"
+            stroke-dasharray="301.59" stroke-dashoffset="190" stroke-linecap="round"
+            transform="rotate(-90)"/>
+    <!-- Flame Icon in center -->
+    <path d="M 0 -18 C -10 -5, -12 6, -6 12 C -2 16, 2 16, 6 12 C 12 6, 10 -5, 0 -18 Z" fill="#fbbf24"/>
+    <text class="mono" x="0" y="30" font-size="16" font-weight="800" fill="#0f172a" text-anchor="middle">1 DAY</text>
+  </g>
+
+  <!-- Right: Metrics -->
+  <g transform="translate(180, 75)">
+    <text class="sans" x="0" y="0" font-size="12" fill="#64748b">Total Contributions:</text>
+    <text class="mono" x="0" y="20" font-size="18" font-weight="700" fill="#0f172a">1,592</text>
+
+    <text class="sans" x="0" y="55" font-size="12" fill="#64748b">Longest Streak:</text>
+    <text class="mono" x="0" y="75" font-size="18" font-weight="700" fill="#fbbf24">11 DAYS</text>
+    <text class="mono" x="0" y="92" font-size="9" fill="#64748b">18 Sep 2026 - 28 Sep 2026</text>
+  </g>
+
+  <text class="mono" x="24" y="222" font-size="9" fill="#64748b">Verified from GraphQL contributionCalendar</text>
+</svg>

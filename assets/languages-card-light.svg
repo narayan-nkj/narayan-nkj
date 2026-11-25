@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 160" width="100%" height="160">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    </style>
+    <clipPath id="langBarClip">
+      <rect x="30" y="55" width="780" height="14" rx="6"/>
+    </clipPath>
+  </defs>
+
+  <rect width="840" height="160" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <text class="mono" x="30" y="32" font-size="12" font-weight="700" fill="#0284c7" letter-spacing="1">MOST USED LANGUAGES // NON-FORK REPOSITORIES</text>
+
+  <g clip-path="url(#langBarClip)">
+    <rect x="30.0" y="55" width="266.7" height="14" fill="#3572A5"/>
+<rect x="296.7" y="55" width="210.2" height="14" fill="#3178c6"/>
+<rect x="506.9" y="55" width="199.4" height="14" fill="#f1e05a"/>
+<rect x="706.2" y="55" width="60.3" height="14" fill="#e34c26"/>
+<rect x="766.5" y="55" width="38.5" height="14" fill="#663399"/>
+<rect x="805.1" y="55" width="3.2" height="14" fill="#89e051"/>
+
+  </g>
+  
+    <g transform="translate(30, 105)">
+      <circle cx="5" cy="0" r="4.5" fill="#3572A5"/>
+      <text class="sans" x="15" y="4" font-size="12" font-weight="600" fill="#0f172a">Python</text>
+      <text class="mono" x="15" y="18" font-size="11" fill="#64748b">34.2%</text>
+    </g>
+    <g transform="translate(160, 105)">
+      <circle cx="5" cy="0" r="4.5" fill="#3178c6"/>
+      <text class="sans" x="15" y="4" font-size="12" font-weight="600" fill="#0f172a">TypeScript</text>
+      <text class="mono" x="15" y="18" font-size="11" fill="#64748b">26.9%</text>
+    </g>
+    <g transform="translate(290, 105)">
+      <circle cx="5" cy="0" r="4.5" fill="#f1e05a"/>
+      <text class="sans" x="15" y="4" font-size="12" font-weight="600" fill="#0f172a">JavaScript</text>
+      <text class="mono" x="15" y="18" font-size="11" fill="#64748b">25.6%</text>
+    </g>
+    <g transform="translate(420, 105)">
+      <circle cx="5" cy="0" r="4.5" fill="#e34c26"/>
+      <text class="sans" x="15" y="4" font-size="12" font-weight="600" fill="#0f172a">HTML</text>
+      <text class="mono" x="15" y="18" font-size="11" fill="#64748b">7.7%</text>
+    </g>
+    <g transform="translate(550, 105)">
+      <circle cx="5" cy="0" r="4.5" fill="#663399"/>
+      <text class="sans" x="15" y="4" font-size="12" font-weight="600" fill="#0f172a">CSS</text>
+      <text class="mono" x="15" y="18" font-size="11" fill="#64748b">4.9%</text>
+    </g>
+    <g transform="translate(680, 105)">
+      <circle cx="5" cy="0" r="4.5" fill="#89e051"/>
+      <text class="sans" x="15" y="4" font-size="12" font-weight="600" fill="#0f172a">Shell</text>
+      <text class="mono" x="15" y="18" font-size="11" fill="#64748b">0.4%</text>
+    </g>
+</svg>

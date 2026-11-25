@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 240" width="100%" height="240">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="410" height="240" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Title -->
+  <text class="mono" x="24" y="32" font-size="12" font-weight="700" fill="#0284c7" letter-spacing="1">GITHUB METRICS</text>
+
+  <!-- Left: Metric Rows -->
+  <g transform="translate(24, 60)">
+    <text class="sans" x="0" y="0" font-size="13" fill="#64748b">Total Stars:</text>
+    <text class="mono" x="180" y="0" font-size="13" font-weight="700" fill="#0f172a">0</text>
+
+    <text class="sans" x="0" y="28" font-size="13" fill="#64748b">Commits (Past Year):</text>
+    <text class="mono" x="180" y="28" font-size="13" font-weight="700" fill="#0f172a">1,571</text>
+
+    <text class="sans" x="0" y="56" font-size="13" fill="#64748b">Pull Requests:</text>
+    <text class="mono" x="180" y="56" font-size="13" font-weight="700" fill="#0f172a">11</text>
+
+    <text class="sans" x="0" y="84" font-size="13" fill="#64748b">Total Issues:</text>
+    <text class="mono" x="180" y="84" font-size="13" font-weight="700" fill="#0f172a">0</text>
+
+    <text class="sans" x="0" y="112" font-size="13" fill="#64748b">Contributed Repos:</text>
+    <text class="mono" x="180" y="112" font-size="13" font-weight="700" fill="#0f172a">6</text>
+  </g>
+
+  <!-- Right: Activity Grade Ring -->
+  <g transform="translate(325, 125)">
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#e2e8f0" stroke-width="7"/>
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#0284c7" stroke-width="7"
+            stroke-dasharray="301.59" stroke-dashoffset="60" stroke-linecap="round"
+            transform="rotate(-90)"/>
+    <text class="mono" x="0" y="8" font-size="24" font-weight="800" fill="#0f172a" text-anchor="middle">A+</text>
+    <text class="mono" x="0" y="24" font-size="8" fill="#64748b" text-anchor="middle">ACTIVITY GRADE</text>
+  </g>
+
+  <!-- Transparent grading formula note -->
+  <text class="mono" x="24" y="222" font-size="9" fill="#64748b">Grade formula: commits &gt;= 1000 &amp; PRs &gt;= 10 &#8594; A+</text>
+</svg>
