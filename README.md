@@ -1,161 +1,95 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/banner-dark.svg">
+  <img src="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/banner-light.svg" alt="Narayan Kumar Jha - Radar sweep resolving into signal" width="100%">
+</picture>
 
-<img src="./assets/profile-banner.png" alt="Narayan Kumar Jha Profile Banner" width="100%" />
+## Focus
 
-# Narayan Kumar Jha
+Student engineer building acoustic signal intelligence, deterministic verification gates, and digital-twin systems. Studying Data Science at IIT Madras alongside Computer Science at B.P. Poddar Institute of Management & Technology.
 
-**Systems Engineer & Creative Developer | Data Science & Distributed Architecture**
+- Mathematical foundations in linear algebra, numerical analysis, and acoustic signal modeling.
+- High-throughput verification pipelines with fail-closed semantics and immutable audit trails.
+- Digital twin simulation architectures for remote telemetry in extreme environments.
 
-[![Profile Views](https://komarev.com/ghpvc/?username=narayan-nkj&color=60a5fa&style=flat-square&label=PROFILE+VIEWS)](https://github.com/narayan-nkj)
-[![GitHub Followers](https://img.shields.io/github/followers/narayan-nkj?label=FOLLOWERS&style=flat-square&color=a78bfa&logo=github)](https://github.com/narayan-nkj)
-[![IIT Madras](https://img.shields.io/badge/IIT_Madras-BS_Data_Science-2563eb?style=flat-square)](https://study.iitm.ac.in/ds/)
-[![BPPIMT](https://img.shields.io/badge/BPPIMT-Computer_Science-4f46e5?style=flat-square)](https://bppimt.ac.in)
-[![Instagram](https://img.shields.io/badge/Instagram-narayan.mindmaster-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/narayan.mindmaster?igsh=MTI4enN0ZHM5MHVsZA==)
-[![Portfolio](https://img.shields.io/badge/Portfolio-narayan--nkj.vercel.app-06b6d4?style=flat-square&logo=vercel)](https://narayan-nkj.vercel.app)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/divider-noisy-dark.svg">
+  <img src="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/divider-noisy-light.svg" alt="Signal divider line with high-frequency noise" width="100%">
+</picture>
 
-<br/>
+## Engineering
 
-> *Architecting mission-critical platforms, acoustic signal intelligence pipelines, and deterministic verification gates with mathematical rigor and clean systems design.*
+### [S.A.G.A.R. (Ocean-X)](https://github.com/narayan-nkj/SagaRSonaR)
+AI-assisted seabed survey analysis featuring a 14-stage acoustic anomaly processing pipeline for side-scan sonar imagery under low signal-to-noise ratios. Built for Smart India Hackathon 2026 (Problem Statement 26057).
+- **Stack:** Python &bull; FastAPI &bull; PyTorch &bull; React 19 &bull; MapLibre GL
+- **Links:** [Repository](https://github.com/narayan-nkj/SagaRSonaR) &bull; [Sonar Dataset on Hugging Face](https://huggingface.co/datasets/narayan-nkj/sagar-sss)
 
-</div>
+### [ClaimCheck](https://github.com/narayan-nkj/claimcheck-retail-media)
+Deterministic pre-publication verification gate that checks factual claims in retail advertising copy against merchant data. Enforces a fail-closed verdict taxonomy (`ALLOW`, `REVIEW`, `BLOCK`) with immutable audit logging and sub-millisecond local policy execution.
+- **Stack:** Node.js &bull; TypeScript &bull; Express
+- **Links:** [Repository](https://github.com/narayan-nkj/claimcheck-retail-media) &bull; [Live Application](https://claimcheck-ruddy-nu.vercel.app) &bull; [Local Benchmarks](https://github.com/narayan-nkj/claimcheck-retail-media#performance--benchmarks)
 
----
+<details>
+<summary><b>More Projects (4)</b></summary>
+<br>
 
-### 🛰️ About Me
+#### [NCPOR Polar Twin](https://github.com/narayan-nkj/SIH26060)
+Digital-twin operations platform for remote telemetry monitoring, predictive alerting, and supply synchronization across India's Antarctic research stations (Maitri and Bharati) for SIH 2026.
+- **Stack:** React &bull; Vite &bull; Node.js &bull; Express &bull; MongoDB
+- **Links:** [Repository](https://github.com/narayan-nkj/SIH26060) &bull; [Live Platform](https://ncporpolartwin.vercel.app)
 
-I am a dual-track computer science and data science scholar bridging theoretical mathematical foundations with high-throughput production engineering:
+#### [PhantomDeps](https://github.com/narayan-nkj/phantomdeps)
+Verification-only pre-install gate for IBM Bob that statically inspects exported AST declarations from npm tarballs before installation to neutralize AI-agent package hallucinations.
+- **Stack:** TypeScript &bull; Node.js 20+ &bull; SHA-256 Chaining
+- **Links:** [Repository](https://github.com/narayan-nkj/phantomdeps) &bull; [Product Contract](https://github.com/narayan-nkj/phantomdeps/blob/main/docs/product-contract.md)
 
-- 🎓 **Academics:** Pursuing a **BS in Data Science at Indian Institute of Technology Madras (IIT Madras)** alongside Computer Science coursework at **B.P. Poddar Institute of Management & Technology**.
-- 🔬 **Core Focus:** Linear algebra & numerical computing, high-performance distributed systems, deterministic software verification, and acoustic signal intelligence.
-- ⚡ **Engineering Principles:** Fail-closed security architecture, sub-millisecond pipeline latency, rigorous type safety, and mathematically verifiable contracts.
-- 🔭 **Current Explorations:** High-throughput streaming architectures, AST-level software supply chain defenses, underwater side-scan sonar image telemetry, and digital twins for extreme polar environments.
+#### [TaskFlow](https://github.com/narayan-nkj/Taskflow)
+Student productivity engine and academic deadline workspace with a 7-day strip scheduler and isolated sample data feeds.
+- **Stack:** React 18 &bull; TypeScript &bull; Vite &bull; Tailwind CSS
+- **Links:** [Repository](https://github.com/narayan-nkj/Taskflow) &bull; [Live Application](https://taskflow-five-nu-26.vercel.app)
 
----
+#### [Portfolio Suite](https://github.com/narayan-nkj/Narayan.nkj)
+Personal engineering portfolio and project showcase with minimalist typography and theme switching.
+- **Stack:** HTML5 &bull; CSS3 &bull; TypeScript &bull; JavaScript
+- **Links:** [Repository](https://github.com/narayan-nkj/Narayan.nkj) &bull; [Live Site](https://narayan-nkj.vercel.app)
 
-### 🛠️ Technology Ecosystem
+</details>
 
-```
-Core Languages      │ Python 3.12+ • TypeScript • JavaScript (ESNext) • C/C++ • SQL
-Backend & Systems   │ FastAPI • Node.js • Express • Asyncio • WebSockets • Redis • SQLite
-Frontend & UI/UX    │ React 18/19 • Vite • Tailwind CSS • MapLibre GL • Three.js • HTML5 Canvas
-AI & Signal Ops     │ PyTorch • Hugging Face • OpenCV • NumPy • SciPy • Scikit-learn • Pandas
-DevOps & Tooling    │ Git • Docker • GitHub Actions CI/CD • Linux / Shell • Make • Postman
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/divider-mid-dark.svg">
+  <img src="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/divider-mid-light.svg" alt="Signal divider line transitioning to harmonic wave" width="100%">
+</picture>
 
----
+## Stack
 
-### 🚀 Featured Engineering Projects
+- **Core:** Python, TypeScript, JavaScript, C/C++, SQL
+- **Systems & Backend:** FastAPI, Node.js, Express, Redis, SQLite
+- **Frontend & Visualization:** React, Vite, Tailwind CSS, MapLibre GL, Three.js
+- **ML & Signal Processing:** PyTorch, Hugging Face, OpenCV, NumPy, SciPy, scikit-learn, pandas
+- **Tooling & Infrastructure:** Git, Docker, GitHub Actions, Linux
+- *Also used:* Shell, Makefile, HTML5 Canvas
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="left">🌊 S.A.G.A.R. — Ocean-X</h3>
-      <p><b>AI-Assisted Seabed Survey Analysis & 14-Stage Acoustic Anomaly Intelligence</b></p>
-      <p>Developed for the Smart India Hackathon (SIH 2026, Problem Statement 26057). An end-to-end underwater reconnaissance and sidescan sonar processing suite capable of multi-stage acoustic filtering, bathymetric mapping, and automated anomaly classification under low signal-to-noise marine environments.</p>
-      <p><b>Tech Stack:</b> Python, FastAPI, PyTorch, React 19, MapLibre GL, Hugging Face</p>
-      <p>
-        <a href="https://github.com/narayan-nkj/SagaRSonaR"><b>Repository ↗</b></a> &nbsp;|&nbsp;
-        <a href="https://huggingface.co/datasets/narayan-nkj/sagar-sss"><b>Sonar Dataset ↗</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="left">🛡️ ClaimCheck — Retail Media Verification Gate</h3>
-      <p><b>Deterministic Pre-Publication Verification Gate for Advertising Factual Assertions</b></p>
-      <p>A high-performance pre-publication evidence gate designed to prevent misleading claims in retail media advertising. Enforces a strict, fail-closed verdict taxonomy (<code>ALLOW</code>, <code>REVIEW</code>, <code>BLOCK</code>) with sub-millisecond policy evaluation, 77k+ ops/sec throughput, and immutable audit logging.</p>
-      <p><b>Tech Stack:</b> Node.js, TypeScript, Express, AMD ROCm / MI300X, Tailwind CSS</p>
-      <p>
-        <a href="https://github.com/narayan-nkj/claimcheck-retail-media"><b>Repository ↗</b></a> &nbsp;|&nbsp;
-        <a href="https://claimcheck-ruddy-nu.vercel.app"><b>Live Application ↗</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="left">🧊 NCPOR Polar Twin</h3>
-      <p><b>Antarctic Operations Command & Digital Twin Logistics Platform</b></p>
-      <p>A full-stack digital twin platform engineered for remote management and telemetry monitoring of India’s Antarctic research stations (Maitri & Bharati) for SIH 2026. Features real-time environmental telemetry, predictive critical alerts, role-based logistics workflows, and supply-chain synchronization.</p>
-      <p><b>Tech Stack:</b> React, Vite, Node.js, Express, MongoDB, Tailwind CSS</p>
-      <p>
-        <a href="https://github.com/narayan-nkj/SIH26060"><b>Repository ↗</b></a> &nbsp;|&nbsp;
-        <a href="https://ncporpolartwin.vercel.app"><b>Live Platform ↗</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="left">🔐 PhantomDeps</h3>
-      <p><b>Pre-Install Static AST AI Dependency Claim Gate for IBM Bob</b></p>
-      <p>An npm-first, verification-only pre-install gate designed to neutralize AI coding agent package and symbol hallucinations. Statically inspects exported AST declarations directly from tarballs before execution, enforcing a five-dimensional provenance chain and SHA-256 tamper-evident decision logs.</p>
-      <p><b>Tech Stack:</b> TypeScript 5.5+, Node.js 20+, AST Parsers, SHA-256 Chaining</p>
-      <p>
-        <a href="https://github.com/narayan-nkj/phantomdeps"><b>Repository ↗</b></a> &nbsp;|&nbsp;
-        <a href="https://github.com/narayan-nkj/phantomdeps/blob/main/docs/product-contract.md"><b>Product Contract ↗</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="left">⚡ TaskFlow</h3>
-      <p><b>Focused Student Productivity Engine & Deadline Inspector</b></p>
-      <p>A calm, dependable productivity workspace built to unify academic deadlines, hackathon deliverables, and student developer workflows. Engineered with zero extraneous cognitive overhead, responsive 7-day date strip scheduling, and isolated external API synchronization.</p>
-      <p><b>Tech Stack:</b> React 18, TypeScript, Vite, Tailwind CSS</p>
-      <p>
-        <a href="https://github.com/narayan-nkj/Taskflow"><b>Repository ↗</b></a> &nbsp;|&nbsp;
-        <a href="https://taskflow-five-nu-26.vercel.app"><b>Live App ↗</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="left">🌐 Portfolio Suite</h3>
-      <p><b>Personal Engineering & Creative Developer Showcase</b></p>
-      <p>An interactive, responsive digital portfolio highlighting full-stack architectures, data science research, algorithmic proofs, and production deployments with smooth transitions and editorial design aesthetics.</p>
-      <p><b>Tech Stack:</b> HTML5, CSS3, TypeScript, JavaScript, Vercel</p>
-      <p>
-        <a href="https://github.com/narayan-nkj/Narayan.nkj"><b>Repository ↗</b></a> &nbsp;|&nbsp;
-        <a href="https://narayan-nkj.vercel.app"><b>Live Experience ↗</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/languages-dark.svg">
+  <img src="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/languages-light.svg" alt="Proportional language distribution bar" width="100%">
+</picture>
 
----
+<br>
 
-### 📊 Engineering Activity & Insights
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/contribution-waveform-dark.svg">
+  <img src="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/contribution-waveform-light.svg" alt="52-week smoothed contribution waveform" width="100%">
+</picture>
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" valign="middle">
-        <a href="https://github.com/narayan-nkj">
-          <img src="https://github-readme-stats.vercel.app/api?username=narayan-nkj&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080b12&title_color=60a5fa&icon_color=67e8f9&text_color=9aa7ba" alt="Narayan's GitHub Stats" />
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a href="https://github.com/narayan-nkj">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=narayan-nkj&theme=tokyonight&hide_border=true&background=080b12&stroke=263044&ring=60a5fa&fire=a78bfa&currStreakLabel=67e8f9" alt="Narayan's Contribution Streak" />
-        </a>
-      </td>
-    </tr>
-  </table>
-  <br/>
-  <a href="https://github.com/narayan-nkj">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=narayan-nkj&layout=compact&theme=tokyonight&hide_border=true&bg_color=080b12&title_color=60a5fa&text_color=9aa7ba" alt="Top Languages" />
-  </a>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/divider-sine-dark.svg">
+  <img src="https://raw.githubusercontent.com/narayan-nkj/narayan-nkj/main/assets/divider-sine-light.svg" alt="Signal divider line fully resolved into a clean sine wave" width="100%">
+</picture>
 
----
+## Contact
 
-### 📡 Connect & Collaborate
-
-<div align="center">
-
-```
-  Location     │  India (IST / UTC+5:30)
-  GitHub       │  https://github.com/narayan-nkj
-  Portfolio    │  https://narayan-nkj.vercel.app
-  Instagram    │  https://www.instagram.com/narayan.mindmaster
-  Education    │  IIT Madras (BS in Data Science) & B.P. Poddar Institute
-```
-
-<br/>
-
-*“The craft of engineering lies in turning mathematical beauty into dependable, unyielding reality.”*
-
-</div>
+- **Open to:** internships / research / hackathon teams
+- **Location:** India (IST / UTC+5:30)
+- **Portfolio:** [narayan-nkj.vercel.app](https://narayan-nkj.vercel.app)
+- **Email:** [narayan.nkj@gmail.com](mailto:narayan.nkj@gmail.com)
+- **LinkedIn:** [narayan-nkj](https://www.linkedin.com/in/narayan-nkj)
+- **Instagram:** [n.jha.__](https://www.instagram.com/n.jha.__)

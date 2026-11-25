@@ -1,0 +1,51 @@
+name: Update Profile Assets
+
+on:
+  schedule:
+    # Run daily at 00:00 UTC
+    - cron: '0 0 * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Compile dynamic SVG assets
+        env:
+          # Uses the default repository token.
+          # NOTE: To count contributions from private repositories, configure a repository
+          # secret named GH_PAT (with 'repo' and 'read:user' scopes) and uncomment the line below:
+          # GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/build_assets.py
+
+      - name: Commit and push changes if modified
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          if git diff --staged --quiet; then
+            echo "No visual asset updates detected. Exiting cleanly."
+          else
+            git commit -m "chore(assets): refresh contribution waveform and language distribution [skip ci]"
+            git push
+          fi
